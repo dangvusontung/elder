@@ -44,7 +44,7 @@
             android:label="@string/title_activity_multiple_choices_game_creator"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".YesNoGameCreator"
+            android:name=".Activity.YesNoGameCreator"
             android:label="@string/title_activity_yes_no_game_creator"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
