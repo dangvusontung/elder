@@ -12,4 +12,7 @@
     <string name="title_activity_yes_no_game_creator">YesNoGameCreator</string>
     <string name="title_activity_change_password">ChangePasswordActivity</string>
     <string name="title_activity_full_size_image">FullSizeImageActivity</string>
+    <string name="title_activity_mcgame_detail">MCGameDetail</string>
+    <string name="title_activity_yngame_detail">YNGameDetail</string>
+    <string name="title_activity_new_feed_detail">NewFeedDetailActivity</string>
 </resources>

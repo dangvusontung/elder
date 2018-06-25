@@ -54,6 +54,18 @@
         <activity
             android:name=".Activity.FullSizeImageActivity"
             android:label="@string/title_activity_full_size_image"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.MCGameDetail"
+            android:label="@string/title_activity_mcgame_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.YNGameDetail"
+            android:label="@string/title_activity_yngame_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.NewFeedDetailActivity"
+            android:label="@string/title_activity_new_feed_detail"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
