@@ -14,44 +14,40 @@
         android:text="Where is this place ?" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgMCQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         app:srcCompat="@color/colorPrimaryDark" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_weight="1">
 
-        <RadioButton
-            android:id="@+id/radBtnA"
+        <Button
+            android:id="@+id/btnA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="A" />
 
-        <RadioButton
-            android:id="@+id/radBtnB"
+        <Button
+            android:id="@+id/btnB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="B" />
 
-        <RadioButton
-            android:id="@+id/radBtnC"
+        <Button
+            android:id="@+id/btnC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="C" />
 
-        <RadioButton
-            android:id="@+id/radBtnD"
+        <Button
+            android:id="@+id/btnD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:text="D" />
-    </RadioGroup>
+    </android.support.v7.widget.GridLayout>
+
 </LinearLayout>

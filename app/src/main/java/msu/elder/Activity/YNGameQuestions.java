@@ -9,12 +9,12 @@ import android.view.View;
 
 import msu.elder.R;
 
-public class YNGameDetail extends AppCompatActivity {
+public class YNGameQuestions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_yngame_detail);
+        setContentView(R.layout.activity_yngame_questions);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

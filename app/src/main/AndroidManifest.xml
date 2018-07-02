@@ -52,11 +52,11 @@
             android:label="@string/title_activity_full_size_image"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.MCGameDetail"
+            android:name=".Activity.MCGameQuestions"
             android:label="@string/title_activity_mcgame_detail"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.YNGameDetail"
+            android:name=".Activity.YNGameQuestions"
             android:label="@string/title_activity_yngame_detail"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

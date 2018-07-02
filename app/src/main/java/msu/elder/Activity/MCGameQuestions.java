@@ -9,12 +9,12 @@ import android.view.View;
 
 import msu.elder.R;
 
-public class MCGameDetail extends AppCompatActivity {
+public class MCGameQuestions extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mcgame_detail);
+        setContentView(R.layout.activity_mcgame_questions);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
