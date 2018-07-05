@@ -2,7 +2,7 @@ package msu.elder.Model;
 
 public class Comment {
     int id;
-    int userreply;
+    int user_reply;
     String username;
     String comment;
 
@@ -10,9 +10,9 @@ public class Comment {
 
     }
 
-    public Comment(int id, int userreply, String username, String comment) {
+    public Comment(int id, int user_reply, String username, String comment) {
         this.id = id;
-        this.userreply = userreply;
+        this.user_reply = user_reply;
         this.username = username;
         this.comment = comment;
     }
@@ -25,12 +25,12 @@ public class Comment {
         this.id = id;
     }
 
-    public int getUserreply() {
-        return userreply;
+    public int getUser_reply() {
+        return user_reply;
     }
 
-    public void setUserreply(int userreply) {
-        this.userreply = userreply;
+    public void setUser_reply(int user_reply) {
+        this.user_reply = user_reply;
     }
 
     public String getUsername() {

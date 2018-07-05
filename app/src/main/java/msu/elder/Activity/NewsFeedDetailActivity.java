@@ -9,12 +9,12 @@ import android.view.View;
 
 import msu.elder.R;
 
-public class NewFeedDetailActivity extends AppCompatActivity {
+public class NewsFeedDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_feed_detail);
+        setContentView(R.layout.activity_news_feed_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

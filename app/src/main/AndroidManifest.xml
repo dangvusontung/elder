@@ -60,12 +60,20 @@
             android:label="@string/title_activity_yngame_detail"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Activity.NewFeedDetailActivity"
+            android:name=".Activity.NewsFeedDetailActivity"
             android:label="@string/title_activity_new_feed_detail"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.YesNoGameCreator"
             android:label="@string/title_activity_yes_no_game_creator"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Server.Server"
+            android:label="@string/title_activity_server"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.CommentActivity"
+            android:label="@string/title_activity_comment"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -15,4 +15,7 @@
     <string name="title_activity_mcgame_detail">MCGameDetail</string>
     <string name="title_activity_yngame_detail">YNGameDetail</string>
     <string name="title_activity_new_feed_detail">NewFeedDetailActivity</string>
+    <string name="title_activity_news_feed_item">NewsFeedItem</string>
+    <string name="title_activity_server">Server</string>
+    <string name="title_activity_comment">CommentActivity</string>
 </resources>
